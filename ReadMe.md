@@ -1,5 +1,5 @@
-#102 Lab 8
-## Requirements
+# 102 Lab 8
+### Requirements
 * Add validation on one of the user inputs.
 * Keep asking until an acceptable value is entered.
 * Show an image related to your page’s topic, repeated within your page.
