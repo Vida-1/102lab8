@@ -19,6 +19,6 @@ function guessNumber() {
         guesses++;
         if (parseInt(guess) ===7) {
                 document.write("It took you " +guesses + " times to guess my number");
-        } return: guess;
+        } return guess;
         } 
 
