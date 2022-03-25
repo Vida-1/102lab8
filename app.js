@@ -18,6 +18,6 @@ function guessNumber() {
         let guess=prompt("Guess a number between 1 and 10");   
         guesses++;
     }
-        document.write("It took you " +guesses + " times to guess my number")
+        document.write("It took you " +guesses + " times to guess my number");
         
 }
