@@ -17,6 +17,6 @@ function guessNumber() {
     do {
         let guess=prompt("Guess a number between 1 and 10");
         guesses++;
-    } while (parseInt(guess) ===7);
+    } while (parseInt(guess) !==7);
         document.write("It took you " +guesses + " times to guess my number");
 }
