@@ -13,11 +13,9 @@ function getAnswer(){
 
 function guessNumber() {
         let guesses = 0;
-
-    do {
-        let guess=prompt("Guess a number between 1 and 10");
-        guesses++;
-    } while (parseInt(guess) !==7){
-        document.write("It took you " +guesses + " times to guess my number");
-}
+                while (parseInt(guess) !==7){
+                guess=prompt("Guess a number between 1 and 10");
+                document.write("It took you " +guesses + " times to guess my number");
+                guesses++;
+                }
 }
