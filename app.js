@@ -6,8 +6,9 @@ function getAnswer(){
           document.write("Yes! Talk to a Code Fellows Admissions Advisor today!")
        } else {
               document.write ("It's good to hear things are going so well for you!");
-              }
+              } return: answer;
 }
+
 // this code was written by John Cokos and is run here as a demonstration, not a representation of my own work
 
 function guessNumber() {
