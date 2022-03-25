@@ -10,26 +10,17 @@ function getAnswer(){
        } else {
               document.write ("It's good to hear things are going to so well for you!");
               }
-}
 
 // this code was written by John Cokos and is run here as a demonstration, not a representation of my own work
 
 function guessNumber() {
-        let answer;
         let guesses = 0;
 
-        do {
+    do {
+        let guess=prompt("Guess a number between 1 and 10");   
         guesses++;
-        answer=prompt("Guess a number between 1 and 10");
-        if (parseInt(answer) ===7) {
+        if (parseInt(guess) ===7) {
                 document.write("It took you " +guesses + " times to guess my number")
         } 
-
-        if (parseInt(answer) === 7)  {
-                document.write ("It took you " + guesses + " times to guess my number")
-        }
-
-}
-
-} 
+        } 
 
